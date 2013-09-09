@@ -11,6 +11,8 @@ sub new { bless(\"$_[0]", $_[0]) }
 1;
 # ABSTRACT: Object which stringifies to NUL character ("\0")
 
+=for Pod::Coverage ^(new)$
+
 =head1 SYNOPSIS
 
  use Object::NulStr;
