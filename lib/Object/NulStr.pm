@@ -1,5 +1,7 @@
 package Object::NulStr;
 
+use 5.010001;
+
 # VERSION
 
 use overload q{""} => sub { "\0" };
